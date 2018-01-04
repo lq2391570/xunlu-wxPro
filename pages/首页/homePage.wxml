@@ -1,0 +1,7 @@
+<!--pages/首页/homePage.wxml-->
+<!-- <text>pages/首页/homePage.wxml</text> -->
+<view wx:for='{{listArray}}'> 
+
+
+
+</view>

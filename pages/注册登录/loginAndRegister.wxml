@@ -1,0 +1,51 @@
+<!--pages/注册登录/loginAndRegister.wxml-->
+<!-- <text>pages/注册登录/loginAndRegister.wxml</text> -->
+<!-- <image class='bgImage' src='login_bg.png'></image> -->
+<!-- <view>{{text}}</view>
+<view>{{array[0].msg}}</view>
+<view wx:for="{{array}}" wx:for-index="id">
+{{id}}:{{item.message}}
+</view>
+<view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
+<view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+<view wx:if="{{i<=j}}">
+{{i}} * {{j}} = {{i * j}}
+</view>
+</view>
+</view> -->
+
+<!-- <template name="msgItem">
+<view>
+<text>
+{{index}}:{{msg}}
+</text>
+<text>
+Time:{{time}}
+</text>
+</view>
+</template> -->
+
+<!-- <import src="/pages/logs/logs.wxml"/>
+<template is="msgItem" data="{{...itm}}"/>
+<view data-alpha-beta = "1" data-alphaBeta="2" bindtap='bindViewtap'>
+DataSet Test
+</view>
+
+<include src = "/utils/header.wxml"/>
+<view>body</view>
+<include src = "/utils/footer.wxml"/>
+
+<wxs src = "../../utils/qqq.wxs" module="tools"/>
+<view>{{tools.msg}}</view>
+<view>{{tools.FOO}}</view> -->
+
+<view class = 'bgView'>
+<image class='bgImage' src='/images/login_bg.png'>
+<input class='textFieldCss' placeholder='用户名' placeholder-class='placeholdCss' bindinput='textFieldDidInputPhoneNum'></input>
+<input class='textFieldSecretCss' placeholder='密码' placeholder-class='placeholdCss' bindinput='textFieldDidInputPassWord'></input>
+<button type='primary' size='{{defaultSize}}' loading='{{loading}}' plain='true' disabled='{{disabled}}' bindtap='loginBtnClick' hover-class='other-button-hover' class='loginBtnCss'> login</button>
+</image>
+<image class='logoImage' src='/images/logo1.png'></image>
+<!-- <textarea auto-focus='true' class='textarea'></textarea>  -->
+
+</view>
